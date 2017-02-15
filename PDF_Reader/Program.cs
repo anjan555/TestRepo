@@ -31,7 +31,7 @@ public class PDF
                         Encoding.Default.GetBytes(currentText)));
                 text.Append(currentText);
 
-                Console.WriteLine(currentText);    //fg  
+                Console.WriteLine(currentText);    //Change
                 Console.Read();
             }
             pdfReader.Close();
